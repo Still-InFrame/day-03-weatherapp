@@ -20,7 +20,6 @@ Day 03 of Savion's 100 Day AI Build Challenge (one new app per day for 100 days)
   - **`./deploy.sh`** (web apps only) → deploys to Vercel + attaches `<slug>.100dayaichallenge.com` (auto DNS + SSL, since Vercel runs the domain's DNS).
   - Not every app needs deploying; a GitHub repo link is a fine demo.
 - Not every app needs deploying. The challenge is to BUILD one a day; a repo link is a valid demo. Don't let "must deploy" threaten the streak.
-- **Supabase apps share the "100-day-sandbox" project** (`byvkbrctizkhaoitxlkx`), separate from the tracker's project. `new-day.sh` already pre-filled `.env.local`, so this app connects on first `npm run dev`. To add data: create THIS app's tables in the sandbox SQL editor, **prefixing names per app** (`<slug>_*`) to keep it tidy; RLS isolates per user. **Auth is fully wired on the sandbox** (Google enabled, reusing the Day-1 OAuth client; a `https://*.100dayaichallenge.com/**` wildcard redirect covers every subdomain app) — so `web+supabase+auth` apps log in with NO per-app auth setup. Just deploy and sign in via the app's `*.100dayaichallenge.com` subdomain (not the raw `*.vercel.app` URL). An app for **real external users** should get its own Supabase project instead of the shared sandbox.
 
 ## Working agreements
 
