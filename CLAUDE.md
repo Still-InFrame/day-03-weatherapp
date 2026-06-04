@@ -61,7 +61,7 @@ Read every session. Propose updates to this file when ANY fire — don't wait to
 (none)
 
 ### Recently shipped
-- **CrewCast v1 (2026-06-03)** — full app built and verified end-to-end in browser: seed jobs, add/delete, per-trade verdicts, localStorage persistence, edge cases (too-far / not-found). Builds clean. Not yet committed/deployed.
+- **CrewCast v1 (2026-06-03)** — full app built, verified end-to-end in browser, committed, and **deployed**. Repo: https://github.com/Still-InFrame/day-03-weatherapp · Live: https://weatherapp.100dayaichallenge.com (also day-03-weatherapp.vercel.app). Per-trade verdicts, localStorage persistence, same-day scheduling, edge cases handled. Remaining: log it on the tracker at https://100dayaichallenge.com.
 
 ## Changelog
 
