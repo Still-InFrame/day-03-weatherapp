@@ -31,10 +31,14 @@ A 62%-rain day is a **Reschedule** for a roofing crew but only a **Caution** for
 ## Run locally
 
 ```bash
+git clone https://github.com/Still-InFrame/day-03-weatherapp.git
+cd day-03-weatherapp
 npm install
 npm run dev      # http://localhost:3000
 npm run build    # production build
 ```
+
+No environment variables or API keys needed — Open-Meteo is keyless.
 
 ## How it works
 
