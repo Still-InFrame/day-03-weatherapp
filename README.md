@@ -2,7 +2,7 @@
 
 **Weather-aware job scheduling for trade crews.** Enter your jobs — location, date, and trade — and each one gets a **Go / Caution / Reschedule** verdict tuned to that trade's tolerances. Not a forecast; a decision.
 
-Day 03 of Savion's [100 Day AI Build Challenge](https://100dayaichallenge.com) — one app per day for 100 days.
+Day 03 of Savion's [100 Day AI Build Challenge](https://100dayaichallenge.com/share/savion) — one app per day for 100 days.
 
 **[Live demo →](https://weatherapp.100dayaichallenge.com)**
 
@@ -56,4 +56,4 @@ npm run build    # production build
 ## Links
 
 - **Live demo:** https://weatherapp.100dayaichallenge.com
-- **Challenge tracker:** https://100dayaichallenge.com
+- **Challenge tracker:** https://100dayaichallenge.com/share/savion
